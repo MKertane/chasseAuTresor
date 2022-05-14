@@ -24,6 +24,7 @@ function init() {
 	document.getElementById("boutonInit").innerHTML = "" 
 	document.getElementById("carte").innerHTML = "" 
 	document.getElementById("tentatives").innerHTML = "0"  
+	document.getElementById("commentaires").innerHTML = ""
 	tentatives = 0 
 
 	//Création du tableau dans une variable globale
