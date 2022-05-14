@@ -1,2 +1,0 @@
-Mise à jour Back-end : Correction d'un bug qui faisait que le commentire du sheriff ne s'efface pas lorsque l'on appuie sur le bouton Recommencer
-
