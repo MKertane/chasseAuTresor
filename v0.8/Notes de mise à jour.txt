@@ -1,2 +1,2 @@
-Mise à jour Back-end : Correction d'un bug qui faisait que le commentaire du sheriff ne s'efface pas lorsque l'on appuie sur le bouton Recommencer
+Mise à jour du jeu : Correction d'un bug qui faisait que le commentaire du sheriff ne s'efface pas lorsque l'on appuie sur le bouton Recommencer
 
