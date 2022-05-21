@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chasse au Trésor</title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="clé.png">
+    <link rel="stylesheet" type="text/css" href="chasseAuTresor.css" media="screen" />
+
+</head>
+
+<body onload="init()">
+    <h1>Bienvenue à Ghost Town</h1>
+    <div id="cadreContenu">
+        <div id="score">
+            <p> Vos tentatives : </p>
+            <p id="tentatives">0</p>
+            <div class="commentaires"><div id="commentaires"></div></div>
+            <div id="boutonInit">
+            </div>
+        </div> 
+        <div id="cadreLegende"> 
+            <table id ="legende"> 
+                <thead>
+                    <tr>
+                        <th> Indications </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="orange"> Bonne ligne</td> 
+                        <td id="jaune"> Bonne colonne </td> 
+                        <td id="rouge"> Mauvaise case </td>
+                        <td id="vert"> Clés du saloon </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div> 
+    <hr>
+
+    <table id="carte"></table>  
+    <script src="chasseAuTresor.js"></script>
+   
+</body>
+</html>
